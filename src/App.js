@@ -57,6 +57,10 @@ main.style.filter = 'blur(0px)'
                     Design Books
                 </a>
         </LinkWrapper>
+        <div className='icons'>
+            <SlackIcon/>
+            <GitIcon/>
+        </div>
       </main>
     </div>
   );

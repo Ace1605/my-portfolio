@@ -1,0 +1,92 @@
+
+main{
+  position: relative;
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+  text-align: center;
+}
+#profile__section{
+  margin: 1rem 0 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#profile__section .back{
+  position: absolute;
+  right: 25%;
+  cursor: pointer;
+}
+#profile__section .dots{
+  display: none;
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 768px){
+  #profile__section .back{
+    position: absolute;
+    right: 25%;
+    display: none;
+  }
+  #profile__section .dots{
+    position: absolute;
+    right: 2rem;
+    display: block;
+    cursor: pointer;
+  }
+}
+#profile__section > h1{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter;
+  color: #101828;
+  padding: 0.3rem  0.6rem 0 0.6rem;
+  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+
+}
+
+
+
+#profile__img{
+  height: 6.3rem;
+  width: 6.3rem;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-top: 1rem;
+  /* border: 1px solid #fff;
+  box-shadow: red 0 2px 8px 0px; */
+}
+
+a{
+  display: block;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  color: #101828;
+  text-decoration: none;
+  background-color: #EAECF0;
+  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.4rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter;
+  font-style: normal;
+  
+}
+#slack{
+  display: none;
+}
+.icons svg{
+  padding: 1rem;
+}
