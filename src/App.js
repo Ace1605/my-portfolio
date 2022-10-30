@@ -18,6 +18,43 @@ const LinkWrapper = styled.div`
 `;
 
 
+const Footer = styled.footer`
+  position: relative;
+  max-width: 82.28rem;
+  margin: 0 auto;
+  justify-content: center;
+  .footer-details{
+    display: flex;
+    justify-content: space-between; 
+    border-top: 1px solid #EAECF0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    align-items: center;
+
+    p{
+      color: #667085;
+      font-weight: normal;
+      font-size: 16px;
+      font-family:  Inter;
+    }
+    .logo{
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    .footer-details{
+    display: block;
+    border-top: 1px solid #EAECF0;
+    margin-top: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: left;
+  }
+  }
+
+`;
+
 
 function App() {
 
@@ -47,7 +84,7 @@ main.style.filter = 'blur(0px)'
                 <a id='books' href="http://books.zuri.team " target="_blank" rel='noreferrer' title='Click here to access your design and coding books.' >
                     Zuri Books
                 </a>
-                <a id='book__python' title='Your Python adventure begins with just a click!' href="https://books.zuri.team/python-for-beginners?ref_id=AceDev" target="_blank" rel='noreferrer' >
+                <a id='book__python' title='Begin your Python adventure with a click and at a cost effective price!' href="https://books.zuri.team/python-for-beginners?ref_id=AceDev" target="_blank" rel='noreferrer' >
                     Python Books
                 </a>
                 <a id='pitch' href="https://background.zuri.team" target="_blank" rel='noreferrer' title='Visit this page for exclusive information on coders'>
@@ -61,6 +98,17 @@ main.style.filter = 'blur(0px)'
             <SlackIcon/>
             <GitIcon/>
         </div>
+        <Footer>
+          <div className='footer-details'>
+            <ZuriIcon 
+              className='logo'
+              onClick={() => {
+              window.location.reload();
+              }}/>
+            <p>HNG Internship 9 Frontend Task</p>
+            <IFGIcon/>
+          </div>
+        </Footer>
       </main>
     </div>
   );
