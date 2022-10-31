@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/zuri-basic-webpage/static/css/main.45da399f.css",
-    "main.js": "/zuri-basic-webpage/static/js/main.c17b85f2.js",
+    "main.js": "/zuri-basic-webpage/static/js/main.39d16bea.js",
     "static/js/787.89ae67cb.chunk.js": "/zuri-basic-webpage/static/js/787.89ae67cb.chunk.js",
+    "static/media/Ace.jpeg": "/zuri-basic-webpage/static/media/Ace.6fcf12133f833fbaa3db.jpeg",
     "static/media/ifg.svg": "/zuri-basic-webpage/static/media/ifg.7a5414ca7d8a0dce368862d7e3a9c4d1.svg",
     "static/media/zuri-logo.svg": "/zuri-basic-webpage/static/media/zuri-logo.4ae9d7f7084459bc8bead66d14e290eb.svg",
     "static/media/slack.svg": "/zuri-basic-webpage/static/media/slack.8d1c3d774c173d1ec391982023ef91dc.svg",
@@ -11,11 +12,11 @@
     "static/media/back-button.svg": "/zuri-basic-webpage/static/media/back-button.43483b020f71077ddd13374a41b196ca.svg",
     "index.html": "/zuri-basic-webpage/index.html",
     "main.45da399f.css.map": "/zuri-basic-webpage/static/css/main.45da399f.css.map",
-    "main.c17b85f2.js.map": "/zuri-basic-webpage/static/js/main.c17b85f2.js.map",
+    "main.39d16bea.js.map": "/zuri-basic-webpage/static/js/main.39d16bea.js.map",
     "787.89ae67cb.chunk.js.map": "/zuri-basic-webpage/static/js/787.89ae67cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45da399f.css",
-    "static/js/main.c17b85f2.js"
+    "static/js/main.39d16bea.js"
   ]
 }
