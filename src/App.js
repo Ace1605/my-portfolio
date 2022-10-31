@@ -13,7 +13,6 @@ const LinkWrapper = styled.div`
   margin: 0 auto;
   padding: 1rem 2rem 2rem 2rem;
   max-width: 82.28rem;
-
 `;
 
 const Footer = styled.footer`
