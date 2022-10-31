@@ -8,7 +8,6 @@ import { ReactComponent as ZuriIcon } from "./svg/zuri-logo.svg";
 import { ReactComponent as IFGIcon } from "./svg/ifg.svg";
 
 
-
 const LinkWrapper = styled.div`
   position: relative;
   margin: 0 auto;
@@ -16,7 +15,6 @@ const LinkWrapper = styled.div`
   max-width: 82.28rem;
 
 `;
-
 
 const Footer = styled.footer`
   position: relative;
