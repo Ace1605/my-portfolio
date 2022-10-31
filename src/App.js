@@ -6,6 +6,7 @@ import { ReactComponent as SlackIcon } from "./svg/slack.svg";
 import { ReactComponent as GitIcon } from "./svg/github.svg";
 import { ReactComponent as ZuriIcon } from "./svg/zuri-logo.svg";
 import { ReactComponent as IFGIcon } from "./svg/ifg.svg";
+import Profile from "./images/Ace.jpeg"
 
 
 const LinkWrapper = styled.div`
@@ -67,7 +68,7 @@ main.style.filter = 'blur(0px)'
         <header id='profile__section'>
             <BackIcon className="back" />
             <OptionsIcon className='dots'/>
-            <img src="/Ace.jpeg" alt="profile" id="profile__img" />
+            <img src={Profile} alt="profile" id="profile__img" />
             <h1 id='twitter'>Achugo Ebuka</h1>
             <h2 id='slack'>AceDev</h2>
         </header>
